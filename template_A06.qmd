@@ -284,6 +284,20 @@ Example: The number 312 would return 6 (3 + 1 + 2)
 Run your function with 935068.
 
 ```{r}
+sum_of_digits <- function(n) {
+  if (n == 0){ # base case
+    return(0)
+  }else{
+  # last digit of the number input
+  last_digit = n %% 10
 
+  #truncating the number 
+  number_truncated = n %/% 10
+
+  return(last_digit + sum_of_digits(number_truncated))
+  }
+}
+
+sum_of_digits(935068)
 ```
 
