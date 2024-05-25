@@ -48,7 +48,7 @@ To get full credit for this Question you must:
 
 ## Github Repo Link
 
-[https://your-github-repo-url](https://your-github-repo-url)
+[https://github.com/diyapiramal/Piramal_Diya_201_A06](https://github.com/diyapiramal/Piramal_Diya_201_A06)
 
 :::
 
@@ -56,7 +56,7 @@ To get full credit for this Question you must:
 
 ## Screenshot/image of RStudio
 
-![](filepath.png)
+![](github_setup.PNG)
 
 :::
 
@@ -166,6 +166,7 @@ Hint: use `MARGIN = 1:2` to apply the function to each value instead of only a r
 ```{r}
 
 ```
+
 
 
 ## Question 4 (9 points)
